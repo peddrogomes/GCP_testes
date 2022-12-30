@@ -26,19 +26,6 @@ class conf():
 
 
 
-# def upload_stringio_to_google_storage(bucket_name, stringio, destination_blob_name, fileformat='text/csv'):
-#     """
-#     ENVIA ARQUIVO PARA O STORAGE
-#     """
-#     storage_client = storage.Client()
-
-#     print('Upload to google storage '+destination_blob_name)
-#     bucket = storage_client.get_bucket(bucket_name)
-#     blob = bucket.blob(destination_blob_name)
-#     stringio.seek(0)
-#     blob.upload_from_string(stringio.read(), fileformat)
-
-
 def requisicao():
 
   coin_list = ['BTC', 'ETH', 'XRP', 'LTC', 'ADA', 'XLM', 'LINK', 'DOGE']
